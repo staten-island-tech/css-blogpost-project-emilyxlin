@@ -1,19 +1,28 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap");
+
+* {
+  margin-top: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   text-align: center;
-  background-color: blueviolet;
+  padding: 2px 16px;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: white;
+  flex: 0 1 33%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
-.card:hover {
-  box-shadow: (0, 0, 0, 0.2);
+
+h1 {
+  text-shadow: 3px 3px 5px lightblue;
+  font-family: "Abhaya Libre", serif;
 }
-.container {
-  padding: 2px 16px;
-}
-img {
-  border-radius: 5px 5px 0 0;
+
+p {
+  font-family: "Abhaya Libre", serif;
+  padding: 12px;
 }
